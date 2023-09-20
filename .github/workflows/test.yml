@@ -16,4 +16,4 @@ jobs:
       - name: test
         env:
           THE_HASH: ${{ hashFiles('test/foo') }}
-        run: echo $THE_HASH && exit 1
+        run: echo $THE_HASH
